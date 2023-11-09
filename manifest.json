@@ -1,0 +1,19 @@
+{
+    "manifest_version" : 3,
+    "name" : "Focus_on_work",
+    "description":"Blocks social media website",
+    "version":"1.0",
+    "author":"Diya Patel",
+    "content_scripts":[
+        {
+        "matches":["<all_urls>"],
+        "js":["popup.js"]
+    }],
+    "action":{
+        "default_icon":"/Users/diyapatel/Documents/Programming folder 1/Web devlopment /Crome_extension/images/icon-16.png",
+        "default_icon":"/images/icon-32.png",
+        "default_icon":"/images/icon-48.png",
+        "default_icon":"/images/icon-128.png"
+        }
+    
+}  
